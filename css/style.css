@@ -6,3 +6,6 @@
     font-family: calibri;
     font-size: 22px;
 }
+.nav li a:hover {
+    color: rgb(182, 41, 41);
+}
