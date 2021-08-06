@@ -125,3 +125,14 @@ html {
   @media screen and (orientation: landscape) {
     .responsive { max-height: 20%; }
   }
+  .about_us {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/aboutus.jpg");;
+    background-size: contain;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -ms-background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
