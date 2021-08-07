@@ -22,6 +22,7 @@ html {
   margin-left: 35%; /* Added */
 }
 
+
 .topnav a {
   float: left;
   display: block;
@@ -115,7 +116,7 @@ html {
   font-size: 40px;
   padding-bottom: 6%;
   font-family: 'Montserrat', sans-serif;
-  font-variant: small-caps;
+  /* font-variant: small-caps; */
 }
 @media screen and (orientation: portrait) {
   .home_class h2 {
@@ -125,7 +126,7 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 28px;
+  font-size: 30px;
   padding-bottom: 10%;
   }
 }
@@ -180,13 +181,18 @@ html {
 .about_us h2 {
   float:left;
   text-align: center;
-  margin-left: 5%;
+  margin-left: 10%;
+  padding-top: 10%;
+  padding-bottom: 0;
   font-family: 'Montserrat', sans-serif;
   font-variant: small-caps;
+  color: rgb(182, 41, 41);
 }
-.about_us p {
+.p_aboutus {
   font-family: 'Montserrat', sans-serif;
-
+  padding: 10%;
+  margin-left: 2%;
+  margin-right: 30%;
 }
 @media screen and (orientation: portrait) {
   .about_us h2 {
@@ -196,6 +202,12 @@ html {
     padding: 2%;
     position: relative;
   }
+    .p_aboutus {
+      text-align: center;
+      margin-right: -5%;
+      margin-left: -2%;
+      padding-top: -5%;
+    }
 }
 .Movie {
   background-color:rgb(27, 27, 27);
@@ -211,7 +223,7 @@ html {
   padding: 14px 16px;
   color: white;
 }
-.Book {
+.Movie {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/book.jpg");
   background-size: contain;
@@ -225,4 +237,58 @@ html {
   text-align: center;
   padding: 14px 16px;
   color: white;
+}
+.Movie h2 {
+  color:rgb(255, 255, 255);
+  font-variant: small-caps;
+}
+.footer_bg{
+  background: #1b1b1b;
+}
+.footer{
+  padding: 4%;
+}
+#contact_me {
+  display: table;
+  margin: 0 auto;
+}
+.contact_left h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: rgb(182, 41, 41);
+  text-transform: capitalize;
+}
+.address li{
+  display: block;
+  margin: 10px  0;
+}
+.address li i{
+  color:rgb(41, 130, 182);
+  font-size: 20px;
+  vertical-align: middle;
+}
+.address{
+  margin-top: 20px;
+}
+.address li span{
+  color: #f0f0f0;
+  font-size: 14px;
+  margin-left: 15px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.address li a{
+  color: #f0f0f0;
+  font-size: 14px;
+  margin-left: 8px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+.address li a:hover{
+  text-decoration:none;
+  color:rgb(182, 41, 41);
 }
