@@ -1,6 +1,19 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
 .nav {
   position: relative;
   padding: 10px;
@@ -105,6 +118,49 @@ html {
   border-radius: 3px;
   padding-top: 10%;
 } */
+.fade-in-text {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150px;
+  color: black;
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+.fade-in-image {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
 
 .home_class h2 {
   color: white;
@@ -128,6 +184,7 @@ html {
   font-size: 20px;
   padding-top: 5%;
   font-family: 'Montserrat', sans-serif;
+  transition: all;
 }
 @media screen and (orientation: portrait) {
   .home_class h2 {
