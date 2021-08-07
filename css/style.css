@@ -30,6 +30,7 @@ html {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 22px;
+  font-variant: small-caps;
 }
 
 .topnav a:hover {
@@ -52,7 +53,7 @@ html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 19px;
   }
   .topnav a:not(:first-child) {
     display: none;
@@ -114,6 +115,7 @@ html {
   font-size: 40px;
   padding-bottom: 6%;
   font-family: 'Montserrat', sans-serif;
+  font-variant: small-caps;
 }
 @media screen and (orientation: portrait) {
   .home_class h2 {
@@ -174,4 +176,24 @@ html {
 .about_us a {
   color: rgb(182, 41, 41);
   text-decoration: none;
+}
+.about_us h2 {
+  float:left;
+  text-align: center;
+  margin-left: 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-variant: small-caps;
+}
+.about_us p {
+  font-family: 'Montserrat', sans-serif;
+
+}
+@media screen and (orientation: portrait) {
+  .about_us h2 {
+    text-align: center;
+    float: none;
+    margin: 0;
+    padding: 2%;
+    position: relative;
+  }
 }
