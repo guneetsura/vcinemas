@@ -154,7 +154,7 @@ html {
 }
 .responsive {
   position: absolute;
-  max-width: 10%;
+  max-width: 15%;
   top: 10%;
   left: 10%;
   border-radius: 3px;
