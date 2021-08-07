@@ -197,3 +197,32 @@ html {
     position: relative;
   }
 }
+.Movie {
+  background-color:rgb(27, 27, 27);
+  background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+}
+.Book {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/book.jpg");
+  background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+}
