@@ -148,3 +148,7 @@ html {
   padding: 14px 16px;
   color: white;
 }
+.about_us a {
+  color: rgb(182, 41, 41);
+  text-decoration: none;
+}
