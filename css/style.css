@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  animation: fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -120,9 +120,9 @@ body {
 } */
 .fade-in-text {
   display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 150px;
-  color: black;
+  color: rgb(255, 255, 255);
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
   -moz-animation: fadeIn linear 3s;
@@ -320,7 +320,18 @@ body {
 .Movie h2 {
   color:rgb(255, 255, 255);
   font-variant: small-caps;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
+.card {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+    position: auto;
+    margin: 25px auto; 
+    float: none; 
+    margin-bottom: 50px; 
+}
+
 .footer_bg{
   background: #1b1b1b;
 }
