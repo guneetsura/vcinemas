@@ -194,7 +194,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: 28px;
   padding-bottom: 10%;
   }
   .home_class p{
@@ -336,6 +336,7 @@ body {
   height: auto;
   object-fit: cover;
   display: block;
+  padding-top: 10px;
 }
 .img__description {
   position: absolute;
