@@ -59,7 +59,7 @@ body {
 .topnav .icon {
   display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .topnav a {
     float: left;
     display: block;
@@ -78,7 +78,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .topnav.responsive {
     position: relative;
   }
@@ -194,7 +194,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 28px;
+  font-size: 27px;
   padding-bottom: 10%;
   }
   .home_class p{
@@ -205,6 +205,29 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 15px;
+    padding-top: 30%;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .home_class h2 {
+    color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  padding-bottom: 10%;
+  }
+  .home_class p{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
     padding-top: 30%;
     font-family: 'Montserrat', sans-serif;
   }
@@ -229,6 +252,12 @@ body {
 @media screen and (orientation: portrait) {
   .responsive {
     max-width: 40%;
+    padding-top: 10%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .responsive {
+    max-width: 28%;
     padding-top: 10%;
   }
 }
