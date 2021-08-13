@@ -32,7 +32,8 @@ body {
 .topnav {
   overflow: hidden;
   padding: 10px;
-  margin-left: 34%; /* Added */
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -61,8 +62,8 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .topnav a {
-    float: left;
-    display: block;
+    float: none;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -80,7 +81,10 @@ body {
 
 @media screen and (max-width: 1024px) {
   .topnav.responsive {
-    position: relative;
+    position: absolute;
+    display: block;
+    left: 33%;
+    top: 0;
   }
   .topnav.responsive .icon {
     position: absolute;
